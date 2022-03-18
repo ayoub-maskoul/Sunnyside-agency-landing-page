@@ -243,7 +243,6 @@ footer .icons svg  :hover{
     }
     .section-1 .column-2{
         background-image: url(./images/mobile/image-transform.jpg);
-        background-position-x:-140px ;
     }
     .section-2 ,.section-3{
         flex-direction: column;
@@ -251,7 +250,9 @@ footer .icons svg  :hover{
     }
     .section-2 .column-1{
         background-image: url(./images/mobile/image-stand-out.jpg);
-        background-size: cover;
+    }
+    *{
+        background-position: center;
     }
     .section-3{
         height: 1700px;
@@ -284,7 +285,6 @@ footer .icons svg  :hover{
         height: 50%;
         background-size: cover;
     }
-    
     .images .image-1{
         background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
     }
